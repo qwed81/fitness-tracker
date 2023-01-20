@@ -1,0 +1,54 @@
+.DetailPicker {
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column: 1 / -1;
+	grid-row: 1;
+}
+
+.DetailOption {
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 0.2rem;
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.DetailOption:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Layout {
+	min-height: 100vh;
+
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+
+.Layout .extra-info {
+	grid-column: 2;
+	border-left: 1px solid black;
+}
+
+.Layout .total-container {
+	grid-column: 1;
+	display: grid;
+	grid-template-rows: auto 1fr;
+}
+
+.ItemDatabase {
+	grid-row: 2;
+}
+
+.Total {
+	grid-row: 1;
+}
+
+
+.MealBreakdown {
+	grid-column: 1;
+	grid-row: 2;
+}
+

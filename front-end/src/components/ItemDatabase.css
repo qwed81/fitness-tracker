@@ -1,0 +1,72 @@
+.ItemDatabase {
+	border-top: 1px solid black;
+	display: grid;
+	grid-template-rows: auto auto 1fr auto;
+}
+
+.ItemDatabase .search-input {
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+.ItemDatabase .divider {
+	background-color: black;
+	height: 1px;
+	margin: 1rem;
+}
+
+.ItemDatabase .title {
+	text-align: center;
+	padding: 0.5rem 0rem;
+	font-size: 1.8rem;
+}
+
+.ItemDatabase .header-info {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	margin: 0 1rem;
+}
+
+.ItemDatabase .header-info label {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin: 0.2rem 0.2rem;
+}
+
+.ItemDatabase .header-info input {
+	font-size: 1rem;
+}
+
+.ItemDatabase .item-segment {
+	padding: 0 1rem;
+}
+
+.ItemDatabase .item-list {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	list-style: none;
+	padding-left: 1rem;
+}
+
+.ItemDatabase .control-buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	grid-gap: 0.5rem;
+	margin: 1rem 0.5rem;
+}
+
+.ItemDatabase .control-buttons button {
+	font-size: 1.2rem;
+}
+
+.ItemDatabase .item-name {
+	margin: 0 1rem 0 0.5rem;
+	font-size: 1.2rem;
+}
+
+.ItemDatabase .item-amt {
+	font-size: 1rem;
+	width: 4rem;
+}
+
+
